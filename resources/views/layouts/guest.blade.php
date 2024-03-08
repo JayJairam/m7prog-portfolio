@@ -6,6 +6,9 @@
     <title>Document</title>
 </head>
 <body>
-    <a href="{{route('about')}}">About</a>
+    <a href="{{route('About')}}">About</a>
+
 </body>
 </html>
+
+
