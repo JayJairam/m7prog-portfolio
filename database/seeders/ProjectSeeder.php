@@ -24,7 +24,7 @@ class ProjectSeeder extends Seeder
         ]);
 
         DB::table('projects')->insert([
-            'titel'         => 'Mijn project titel',
+            'title'         => 'Mijn project titel',
             'intro'         => 'Anim non lorem sit est.',
             'description'   => 'Enim labore eu, sed. Sed esse incididunt aute velit. Incididunt, aute velit duis amet sint. Duis amet sint pariatur esse anim officia mollit. Sint pariatur esse anim. Esse anim officia mollit laboris aliqua, et esse.',
             'active'        => true,
