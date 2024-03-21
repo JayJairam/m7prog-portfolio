@@ -2,6 +2,8 @@
 
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ProjectController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -35,3 +37,4 @@ require __DIR__.'/auth.php';
 Route::get('/About', [ \App\Http\Controllers\AboutController::class, 'index'])->name('About');
 Route::get('/Project', [ \App\Http\Controllers\ProjectController::class, 'index'])->name('Project');
 
+Route::get('/projects/index', [ ProjectController::class, 'index' ])->name('project.index');
