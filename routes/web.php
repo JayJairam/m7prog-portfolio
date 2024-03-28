@@ -28,13 +28,10 @@ Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
-    Route::get('/projects/add', [ ProjectController::class, 'add' ])->name('project.add');
-
 });
 
 require __DIR__.'/auth.php';
 
 Route::get('/About', [ \App\Http\Controllers\AboutController::class, 'index'])->name('About');
-Route::get('/Project', [ \App\Http\Controllers\ProjectController::class, 'index'])->name('Project');
 
 Route::get('/projects/index', [ ProjectController::class, 'index' ])->name('project.index');
