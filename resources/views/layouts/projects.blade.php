@@ -30,9 +30,10 @@
 
             <!-- Page Content -->
             <main>
-                <h1 style="color: blue; margin-left: 2rem ; margin-top: 2rem ; font-size: 5rem;">Dashboard</h1>
-                <p style="color: white; margin-left: 2rem ; margin-top: 2rem ;">Hoi dit is de dashboard page.</p>
+                <h1 style="color: yellow; margin-left: 2rem ; margin-top: 2rem ; font-size: 5rem;">Project</h1>
+                <p style="color: white; margin-left: 2rem ; margin-top: 2rem ;">Hoi dit is de Project page.</p>
                 <p style="color: white; margin-left: 2rem ; margin-top: 2rem ;">Hierboven staan er paar opties klik daar even op.</p>
+                <p style="color: white; margin-left: 2rem ; margin-top: 2rem ;">Hier komen de projecten te staan!</p>
 
             </main>
         </div>
